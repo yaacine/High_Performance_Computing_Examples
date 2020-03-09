@@ -69,8 +69,6 @@ int main(int argc, char const *argv[])
                 printf("ERROR; return code from pthread_create() is %d\n", rc);
                 exit(-1);
             }
-           
-
         }
 
         for ( t = 0; t < nbThreads; t++)
