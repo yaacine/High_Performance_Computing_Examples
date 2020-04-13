@@ -3,8 +3,6 @@
 #include <omp.h>
 
 
-
-
 main(int argc, char *argv[]) {
     int nthreads, tid;
     /* Fork a team of threads with each thread having a private tid
@@ -22,3 +20,4 @@ main(int argc, char *argv[]) {
             }
     } /* All threads join master thread and terminate */
 }
+
